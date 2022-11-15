@@ -1,38 +1,81 @@
 .App {
-  text-align: center;
+  width: 1260px;
+  height: 1423px;
+  background: #333333;
+  margin: 0px auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.head {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.logo1 {
+  box-sizing: border-box;
+  width: 50px;
+  height: 48px;
+  margin-left: 149px;
+  margin-top: 30px;
+  background: #333333;
+  border: 3px solid #74C4FF;
+  border-radius: 20px;
 }
+.logo2 {
+  margin-top: 8px;
+  margin-left: 17px;
+  width: 101px;
+  height: 29px;
+  background-color: #333333;
+  white-space: nowrap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #8A72FF;
+}
+.search {
+  margin-top: 40px;
+  margin-left: 710px;
+  width: 201px;
+  height: 33px;
+  border: 1px solid #BE72FF;
+  border-radius: 3px;
+  background-color: #333333;
+  text-shadow: 0 0 4px #74C4FF;
+}
+.button {
+  margin: 1px 0 1px 129px;
+  padding: auto;
+  width: 72px;
+  height: 31px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  color: #333333;
+  background-color: #BE72FF;
+  border-radius: 3px;
+  box-sizing: border-box;
+  padding-top: 7px;
+}
+nav { 
+  display: flex;
+  margin-top: 16px;
+  margin-left: 149px;
+}
+a {
+  width: 123px;
+  height: 47px;
+  font: 'Roboto' normal 700 14px/16px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 2px;
+  box-sizing: border-box;
+  padding-top: 15px;
+}
+a.home {
+  background-color: #74C4FF;
+  color: #333333;
 }
