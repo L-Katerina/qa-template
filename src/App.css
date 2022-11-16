@@ -6,12 +6,12 @@
 }
 .head {
   display: flex;
+  margin: 0px 150px 0px 149px;
 }
 .logo1 {
   box-sizing: border-box;
   width: 50px;
   height: 48px;
-  margin-left: 149px;
   margin-top: 30px;
   background: #333333;
   border: 3px solid #74C4FF;
@@ -24,7 +24,7 @@
   height: 29px;
   background-color: #333333;
   white-space: nowrap;
-  font-family: 'Roboto';
+  font-family: 'system-ui';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -40,14 +40,15 @@
   border-radius: 3px;
   background-color: #333333;
   text-shadow: 0 0 4px #74C4FF;
+  box-sizing: border-box;
 }
 .button {
-  margin: 1px 0 1px 129px;
+  margin-left: 128px;
   padding: auto;
   width: 72px;
   height: 31px;
 
-  font-family: 'Roboto';
+  font-family: 'system-ui';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -61,21 +62,29 @@
 }
 nav { 
   display: flex;
-  margin-top: 16px;
-  margin-left: 149px;
+  margin: 16px 150px 0 149px;
 }
 a {
   width: 123px;
   height: 47px;
-  font: 'Roboto' normal 700 14px/16px;
+  font-family: 'system-ui';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
   text-align: center;
   color: #ffffff;
   text-decoration: none;
-  border-radius: 2px;
   box-sizing: border-box;
   padding-top: 15px;
 }
 a.home {
   background-color: #74C4FF;
   color: #333333;
+  font-weight: 700;
+  border-radius: 2px;
+  
+}
+a.contact {
+  width: 106px;
 }

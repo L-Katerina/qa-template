@@ -21,9 +21,9 @@ function App() {
           <a href="#">CUSTOMERS</a>
           <a href="#">PROGECT</a>
           <a href="#">CAREERS</a>
-          <a href="#">CONTACT</a>
+          <a className='contact' href="#">CONTACT</a>
         </nav>
-        </header>
+      </header>
     </div>
   );
 }
