@@ -155,7 +155,7 @@ function App() {
             <div id="description" className="car">
               <img className="mini" src="https://i.ibb.co/9rS8M2v/car.png"></img>
               <p>LOREM IPSUM</p>
-              <p>
+              <p className="txt2">
                 Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis
                 sem a efficitur auctor.
               </p>
@@ -163,7 +163,7 @@ function App() {
             <div id="description" className="phone">
               <img className="mini" src="https://i.ibb.co/yn55bYv/phone.png"></img>
               <p>LOREM IPSUM</p>
-              <p>
+              <p className="txt2">
                 Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis
                 sem a efficitur auctor.
               </p>
@@ -171,7 +171,7 @@ function App() {
             <div id="description" className="bbc">
               <img className="mini" src="https://i.ibb.co/q5YFFTp/bbc-news.png"></img>
               <p>LOREM IPSUM</p>
-              <p>
+              <p className="txt2">
                 Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis
                 sem a efficitur auctor.
               </p>
