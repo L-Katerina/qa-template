@@ -210,6 +210,9 @@ function App() {
           </div>
         </div>
       </body>
+      <footer>
+        <p>For QA-Internship Using</p>
+      </footer>
     </div>
   );
 }
