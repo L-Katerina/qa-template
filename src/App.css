@@ -8,6 +8,7 @@
 }
 .head {
   display: flex;
+  justify-content: space-between;
 }
 .logo {
   display: flex;
@@ -37,7 +38,6 @@
 }
 .search {
   margin-top: 40px;
-  margin-left: 710px;
   width: 201px;
   height: 33px;
   border: 1px solid #be72ff;
