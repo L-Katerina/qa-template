@@ -85,8 +85,6 @@ function App() {
                 <p className="link">Steve Jobs, CEO</p>
               </div>
             </div>
-          </div>
-          <div className="part2">
             <div className="postleft">
               <div className="postname">
                 <div id="blue" className="dot1"></div>
@@ -154,7 +152,10 @@ function App() {
               <div id="pink" className="line5"></div>
             </div>
             <div id="description" className="car">
-              <img className="mini" src="https://i.ibb.co/9rS8M2v/car.png"></img>
+              <img
+                className="mini"
+                src="https://i.ibb.co/9rS8M2v/car.png"
+              ></img>
               <p>LOREM IPSUM</p>
               <p className="txt2">
                 Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis
@@ -162,7 +163,10 @@ function App() {
               </p>
             </div>
             <div id="description" className="phone">
-              <img className="mini" src="https://i.ibb.co/yn55bYv/phone.png"></img>
+              <img
+                className="mini"
+                src="https://i.ibb.co/yn55bYv/phone.png"
+              ></img>
               <p>LOREM IPSUM</p>
               <p className="txt2">
                 Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis
@@ -170,7 +174,10 @@ function App() {
               </p>
             </div>
             <div id="description" className="bbc">
-              <img className="mini" src="https://i.ibb.co/q5YFFTp/bbc-news.png"></img>
+              <img
+                className="mini"
+                src="https://i.ibb.co/q5YFFTp/bbc-news.png"
+              ></img>
               <p>LOREM IPSUM</p>
               <p className="txt2">
                 Aenean hendrerit pretium enim quis rutrum. Pellentesque mattis
