@@ -4,9 +4,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="header">
         <div className="head">
-          <div className="logo1">
+          <div className="logo">
+            <div className="logo1"></div>
             <div className="logo2">QA LOGO</div>
           </div>
           <div className="search">
