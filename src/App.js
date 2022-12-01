@@ -13,6 +13,7 @@ function App() {
           <div className="search">
             <div className="button">SEARSH</div>
           </div>
+          <span className="burger"></span>
         </div>
         <nav className="menu">
           <a className="home" href="#">
@@ -44,12 +45,12 @@ function App() {
           </div>
         </div>
         <div className="post">
-          <div className="part1">
+          <div className="part">
             <div className="postleft">
               <div className="postname">
-                <div id="pink" className="dot1"></div>
+                <div className="dot pink blue-m"></div>
                 <div className="txt">ABOUT SUPER LOGO</div>
-                <div id="pink" className="line1"></div>
+                <div className="line1 pink blue-m"></div>
               </div>
               <div>
                 <img src="https://i.ibb.co/x3yv0p6/download.png"></img>
@@ -65,11 +66,11 @@ function App() {
                 <p className="link">Reade more...</p>
               </div>
             </div>
-            <div className="postright">
+            <div className="postleft">
               <div className="postname">
-                <div id="blue" className="dot1"></div>
+                <div className="dot blue pink-m"></div>
                 <div className="txt">SOME WORDS OUR CEO</div>
-                <div id="blue" className="line2"></div>
+                <div className="line2 blue pink-m"></div>
               </div>
               <div>
                 <img src="https://i.ibb.co/0Cjk9jF/download-1.png"></img>
@@ -87,7 +88,7 @@ function App() {
             </div>
             <div className="postleft">
               <div className="postname">
-                <div id="blue" className="dot1"></div>
+                <div id="blue" className="dot"></div>
                 <div className="txt">ABOUT SUPER LOGO</div>
                 <div id="blue" className="line1"></div>
               </div>
@@ -105,9 +106,9 @@ function App() {
                 <p className="link decor">Read more...</p>
               </div>
             </div>
-            <div className="postright">
+            <div className="postleft">
               <div className="postname">
-                <div id="pink" className="dot1"></div>
+                <div id="pink" className="dot"></div>
                 <div className="txt">SOME WORDS OUR CEO</div>
                 <div id="pink" className="line2"></div>
               </div>
@@ -130,7 +131,7 @@ function App() {
         <div className="blocks">
           <div className="left">
             <div className="lmr">
-              <div id="blue" className="dot1"></div>
+              <div id="blue" className="dot"></div>
               <div className="txt">SERVICES</div>
               <div id="blue" className="line4"></div>
             </div>
@@ -210,11 +211,24 @@ function App() {
             <div id="pink" className="linetop"></div>
           </div>
           <div className="logoclient">
-            <img src="https://i.ibb.co/ysPJnnz/client-1-1.png"></img>
-            <img src="https://i.ibb.co/1QhqRFP/client-2-1.png"></img>
-            <img src="https://i.ibb.co/dQWBr3N/client-3-1.png"></img>
-            <img src="https://i.ibb.co/4dkhnMZ/client-5-1.png"></img>
-            <img src="https://i.ibb.co/ypv37Pc/client-4-1.png"></img>
+            <img src="https://i.ibb.co/ysPJnnz/client-1-1.png" width="120" height="120"></img>
+            <img src="https://i.ibb.co/1QhqRFP/client-2-1.png" width="120" height="120"></img>
+            <img className="beer" src="https://i.ibb.co/dQWBr3N/client-3-1.png" width="120" height="93.54"></img>
+            <img src="https://i.ibb.co/4dkhnMZ/client-5-1.png" width="120" height="120"></img>
+            <img src="https://i.ibb.co/ypv37Pc/client-4-1.png" width="120" height="120"></img>
+          </div>
+          <div className="mobileclient">
+            <div className="group1">
+              <img src="https://i.ibb.co/ysPJnnz/client-1-1.png" width="120" height="120"></img>
+              <img src="https://i.ibb.co/1QhqRFP/client-2-1.png" width="120" height="120"></img>
+            </div>
+            <div className="group2">
+              <img src="https://i.ibb.co/dQWBr3N/client-3-1.png" width="120" height="93.54"></img>
+            </div>
+            <div className="group3">
+              <img src="https://i.ibb.co/4dkhnMZ/client-5-1.png" width="120" height="120"></img>
+              <img src="https://i.ibb.co/ypv37Pc/client-4-1.png" width="120" height="120"></img>
+            </div>
           </div>
         </div>
       </body>
